@@ -1,0 +1,111 @@
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #ba33bd 100%); min-height: 100vh; padding: 20px; 
+}
+        
+.container { 
+    max-width: 800px; margin: 0 auto; background: white; border-radius: 15px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); overflow: hidden; 
+}
+        
+.header { background: linear-gradient(135deg, #4facfe 0%, #846ffd 100%); color: white; padding: 30px; text-align: center; 
+}
+    
+.header h1 { 
+    font-size: 2.5em; margin-bottom: 10px; font-weight: 300; 
+}
+        
+.header p { 
+    font-size: 1.1em; opacity: 0.9; 
+}
+    
+.form-container { 
+    padding: 40px; 
+}
+
+.recurso { 
+    margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 10px; border-bottom: 5px solid #4facfe; 
+}
+
+.recurso h3 { 
+    color: #2c3e50; margin-bottom: 15px; font-size: 1.3em; 
+}
+
+.recurso p { 
+    color: #6c757d; margin-bottom: 20px; line-height: 1.6; 
+}
+
+.rating-scale { 
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; 
+}
+
+.rating-option { 
+    display: flex; flex-direction: column; align-items: center; flex: 1; 
+}
+
+.rating-option input[type="radio"] { 
+    margin-bottom: 8px; transform: scale(1.5); accent-color: #ba33bd; 
+}
+
+.rating-option label { 
+    font-size: 0.9em; color: #495057; text-align: center; cursor: pointer; 
+}
+
+.score-labels { 
+    display: flex; justify-content: space-between; margin-top: 10px; font-size: 0.8em; color: #6c757d;
+}
+
+.submit-section { 
+    text-align: center; margin-top: 40px; padding-top: 30px; border-top: 2px solid #e9ecef; 
+}
+
+.btn { 
+    background: linear-gradient(135deg, #4facfe 0%, #846ffd 100%); color: white; border: none; padding: 15px 40px; font-size: 1.1em; border-radius: 50px; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(79, 172, 254, 0.3); 
+}
+
+.btn:hover { 
+    transform: translateY(-2px); box-shadow: 0 8px 25px rgba(79, 172, 254, 0.4); 
+}
+
+.results { 
+    display: none; margin-top: 30px; padding: 25px; background: #e8f5e8; border-radius: 10px; border-bottom: 5px solid #28a745; 
+}
+
+.results h3 { 
+    color: #155724; margin-bottom: 15px; 
+}
+
+.score-breakdown { 
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px; 
+}
+
+.score-item { 
+    background: white; padding: 15px; border-radius: 8px; text-align: center; border-bottom: 5px solid #28a745; 
+}
+
+.score-item h4 { 
+    color: #495057; margin-bottom: 5px; 
+}
+
+.score-value { 
+    font-size: 1.5em; font-weight: bold; color: #4facfe; 
+}
+
+.total-score { 
+    text-align: center; padding: 20px; background: linear-gradient(135deg, #4facfe 0%, #ba33bd 100%); color: white; border-radius: 10px; margin-top: 20px; 
+}
+
+.total-score h2 { 
+    font-size: 2em; margin-bottom: 10px; 
+}
+
+.interpreta { 
+    margin-top: 20px; padding: 20px; background: #fff3cd; border-radius: 8px; border-bottom: 5px solid #ffc107; 
+}
+
+.interpreta h4 {
+    color: #856404; margin-bottom: 10px; 
+}
+
+.interpreta p { 
+    color: #856404; line-height: 1.6; 
+}
