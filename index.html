@@ -16,7 +16,8 @@
                 <p>Considere "0" para total desconhecimento do recurso e "5" para domínio total de seu uso.</p>
             </div>
             <div class="form-container">
-                <form id="avaliacaoForm">
+                <form id="avaliacaoForm" action="https://formspree.io/f/mdklwovv" method="POST">
+                        
                     <div class="recurso">
                         <h3>1. Intenção</h3>
                         <p>Consciência dos seus objetivos na comunicação e uso das emoções para expressar com equilíbrio, em diferentes contextos.</p>
@@ -89,6 +90,18 @@
                             <div class="rating-option"><input type="radio" name="atitude" value="5" id="atitude5"><label for="atitude5">5</label></div>
                         </div>
                     </div>
+
+                    <div class="captar">
+                        <label>
+                            Seu nome:
+                            <textarea name="nome" required></textarea>
+                        </label>
+                        <label>
+                            Seu e-mail:
+                            <input type="email" name="email" required>
+                        </label>
+                    </div> 
+
                     <div class="submit-section">
                         <button type="submit" class="btn">Calcular Pontuação</button>
                     </div>

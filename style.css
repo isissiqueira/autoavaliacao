@@ -50,6 +50,22 @@ body {
     font-size: 0.9em; color: #495057; text-align: center; cursor: pointer; 
 }
 
+.captar {
+    margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 10px; border-bottom: 5px solid #4facfe; 
+}
+
+.captar label {
+    color: #6c757d; padding: auto; margin-bottom: 20px; line-height: 1.6; 
+}
+
+.captar textarea {
+    display: flex; padding: auto; margin-bottom: 15px; background: white; border-radius: 5px; border: 2px solid #4facfe;
+}
+
+.captar input[type="email"] {
+    display: flex; padding: 10px; margin-bottom: 15px; background: white; border-radius: 5px; border: 2px solid #4facfe;
+}
+
 .score-labels { 
     display: flex; justify-content: space-between; margin-top: 10px; font-size: 0.8em; color: #6c757d;
 }
