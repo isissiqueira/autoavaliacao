@@ -20,16 +20,16 @@ document.getElementById('avaliacaoForm').addEventListener('submit', function(e) 
         return;
     }
     displayResults(scores, totalScore);
-});
 
-const form = e.target;
-const formData = new FormData(form);
-fetch(form.action, {
-    method: 'POST',
-    body: formData,
-    headers: {
-        'Accept': 'application/json'
-    }
+    const form = e.target;
+    const formData = new FormData(form);
+    fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    });
 });
 
 function displayResults(scores, totalScore) {
