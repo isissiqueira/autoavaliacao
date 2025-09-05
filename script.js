@@ -22,6 +22,16 @@ document.getElementById('avaliacaoForm').addEventListener('submit', function(e) 
     displayResults(scores, totalScore);
 });
 
+const form = e.target;
+const formData = new FormData(form);
+fetch(form.action, {
+    method: 'POST',
+    body: formData,
+    headers: {
+        'Accept': 'application/json'
+    }
+});
+
 function displayResults(scores, totalScore) {
     const resultsDiv = document.getElementById('results');
     const scoreBreakdown = document.getElementById('scoreBreakdown');
